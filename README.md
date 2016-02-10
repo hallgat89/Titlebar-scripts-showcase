@@ -9,3 +9,5 @@ procid.sh - Shows the process id of the current window<br />
 procinfo.sh - Shows the "real" name and the memory usage of the active window.<br />
 timeinfo.sh - Shows the current time in the titlebar of an active window<br />
 TEMPLATE.sh - A template for YOU to create similar scripts :)<br />
+<br />
+NOTE: RUN ONLY ONE SCRIPT AT A TIME!
