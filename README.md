@@ -10,4 +10,7 @@ procinfo.sh - Shows the "real" name and the memory usage of the active window.<b
 timeinfo.sh - Shows the current time in the titlebar of an active window<br />
 TEMPLATE.sh - A template for YOU to create similar scripts :)<br />
 <br />
-NOTE: RUN ONLY ONE SCRIPT AT A TIME!
+NOTE: RUN ONLY ONE SCRIPT AT A TIME!<br />
+<br />
+
+![alt tag](https://raw.githubusercontent.com/hallgat89/Titlebar-scripts-showcase/master/preview.png)
