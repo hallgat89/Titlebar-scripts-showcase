@@ -1,4 +1,4 @@
-# Titlebar-scripts-showcase
+# Titlebar scripts showcase
 Bash scripts showcasing ideas about adding extra info in the titlebar of windows
 
 These scripts are showcased to motivate you to take this idea further, and develop your own scripts.<br />
