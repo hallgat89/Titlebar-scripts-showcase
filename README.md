@@ -1,6 +1,8 @@
 # Titlebar scripts showcase
-Bash scripts showcasing ideas about adding extra info in the titlebar of windows
-
+Bash scripts showcasing ideas about adding extra info in the titlebar of windows<br />
+<br />
+requirements: xdotool, wmctrl.  (moc for the moc script obviously)
+<br />
 These scripts are showcased to motivate you to take this idea further, and develop your own scripts.<br />
 <br />
 glasses.sh - Adds glasses ASCII animation to your focused window<br />
