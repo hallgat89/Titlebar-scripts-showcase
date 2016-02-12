@@ -23,7 +23,7 @@ repl() {
 getmopp ()
 {
     #gets state of moc player, or returns OFF
-    mocs=`mocp -Q %state 2>/dev/null || echo OFF`
+    mocs=`mocp -Q %state &>/dev/null || echo OFF`
 
     if [ "$mocs" == "PLAY" ]
     then
