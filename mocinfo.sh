@@ -4,7 +4,7 @@
 
 getwid2 ()
 {
-    a=`xdotool getactivewindow`
+    a=`xdotool getactivewindow` &>/dev/null || :
     printf 0x%x $a #convert to wmctrl format
 }
 
@@ -69,7 +69,7 @@ trap cleanup EXIT
 
 
 WID=$(getwid2) #windowid
-WIT=`xdotool getactivewindow getwindowname` #window title
+WIT=`xdotool getactivewindow getwindowname` &>/dev/null || : #window title
 CWIT=$WIT #this will store the current window title
 while [ "1" -eq "1" ]
 do
